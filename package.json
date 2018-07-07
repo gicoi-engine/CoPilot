@@ -30,7 +30,7 @@
     "vue": "^2.2.2",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.2.0",
-    "vuejs-datepicker": "^1.5.2",
+    "vuejs-datepicker": "https://github.com/jyyan/vuejs-datepicker",
     "vuex": "^2.0.0",
     "vuex-router-sync": "^4.1.2"
   },

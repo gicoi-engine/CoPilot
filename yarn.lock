@@ -6469,9 +6469,9 @@ vue@^2.2.2:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.3.3.tgz#d1eaa8fde5240735a4563e74f2c7fead9cbb064c"
 
-vuejs-datepicker@^1.5.2:
+"vuejs-datepicker@https://github.com/jyyan/vuejs-datepicker":
   version "1.5.2"
-  resolved "https://registry.yarnpkg.com/vuejs-datepicker/-/vuejs-datepicker-1.5.2.tgz#e89e8ec91f1a5c50e229934f47b611fbb8d20e68"
+  resolved "https://github.com/jyyan/vuejs-datepicker#c5d1c6cd501440df5f396b5047e616e17d900157"
 
 vuex-router-sync@^4.1.2:
   version "4.1.2"
