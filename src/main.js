@@ -9,6 +9,9 @@ import { sync } from 'vuex-router-sync'
 import routes from './routes'
 import store from './store'
 
+import bugsnag from 'bugsnag-js'
+import bugsnagVue from 'bugsnag-vue'
+
 // Import Helpers for filters
 import { domain, count, prettyDate, pluralize } from './filters'
 
@@ -74,5 +77,5 @@ new Vue({
 })
 
 // change this. demo
-window.bugsnagClient = window.bugsnag('02fe1c2caaf5874c50b6ee19534f5932')
-window.bugsnagClient.use(window.bugsnag__vue(Vue))
+const bugsnagClient = bugsnag('0e0bd690ba3f3377527bf4bec2ceb098')
+bugsnagClient.use(bugsnagVue(Vue))

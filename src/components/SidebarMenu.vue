@@ -1,5 +1,5 @@
 <template>
-  <ul class="sidebar-menu">
+  <ul class="sidebar-menu" data-widget="tree">
     <li class="header">TOOLS</li>
     <router-link tag="li" class="pageLink" to="/">
       <a>
